@@ -287,3 +287,12 @@ body {
     color: #FFFFFF;
     background-color: #404BBF;
 }
+
+.button-list {
+    display: flex;
+    margin-left: 427px;
+}
+
+.but-port:not(:last-child) {
+    margin-right: 24px;
+}
