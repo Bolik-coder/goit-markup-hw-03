@@ -244,7 +244,7 @@ body {
 .foot {
     background-color: #2e2f42;
     width: 1440px;
-    height: 310px;
+    height: 210px;
     padding-top: 100px;
 }
 
@@ -267,10 +267,6 @@ body {
     margin-top: 16px;
 }
 
-.main-port {
-
-}
-
 .but-port {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -290,9 +286,26 @@ body {
 
 .button-list {
     display: flex;
+    margin: 0px;
+    padding: 96px;
     margin-left: 427px;
+
 }
 
-.but-port:not(:last-child) {
+.link-buttons:not(:last-child) {
     margin-right: 24px;
+}
+
+.list-port {
+    display: flex;
+    width: 1128px;    
+    padding-left: 156px;
+    padding-top: 72px;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.link-port:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 48px;
 }
